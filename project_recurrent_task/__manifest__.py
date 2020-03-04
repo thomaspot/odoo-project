@@ -19,20 +19,18 @@
 ##############################################################################
 {
     'name': 'Recurrent Task In Project',
-    'version': '9.0.1.0.0',
+    'version': '12.0.1.0.0',
     'summary': """Create Recurrent Task in Project""",
     'description': 'This module helps you to create recurrent task in project',
     'category': 'Project Management',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'website': "http://www.cybrosys.com",
+    'author': 'Cybrosys Techno Solutions','Open2Bizz'
+    'website': "http://www.cybrosys.com","https://open2bizz.tech"
     'depends': ['base', 'project', 'subscription'],
     'data': [
         'demo/demo_data.xml',
         'views/recurrent_task_view.xml',
         'views/approve_recurrent_task_view.xml',
     ],
-    'images': ['static/description/banner.jpg'],
     'license': 'LGPL-3',
     'demo': [],
     'installable': True,
